@@ -173,9 +173,11 @@ require('layout/header.php');
 
 	<!-- SIGNUP BOX -->
     <div class="six columns lightslide-box">
-
+    <h4 class="white">Undergoing construction</h4>
+    <p class="white">Check back later for updates on our next event!</p>
+    <!--
       <h4 class="white">Register to play.</h4>
-      <span class="white">Weeklong Game</span> (March 19th - March 23rd).
+      <span class="white">Weeklong Game</span> (<?php echo WLDATES; ?>).
       <hr>
 	  <p>Already registered? <a href='login.php'>Login.</a></p>
 
@@ -192,8 +194,9 @@ require('layout/header.php');
 		echo "<p class='bg-success'> &#10003; <strong>Thanks for signing up!</strong> <br> We sent you an activation link to complete your registration. Please check your email inbox.</p>";
 		} 
 		?>
-
+    -->
 		<!-- BEGIN SIGNUP FORM -->
+    <!--
         <form role="form" method="post" action="" autocomplete="off">
 
           <div class="row">
@@ -221,6 +224,7 @@ require('layout/header.php');
                 <input type="password" name="passwordConfirm" id="passwordConfirm" class="u-full-width form-control input-lg" placeholder="Confirm Password" tabindex="7">
             </div>
           </div>
+          -->
 
           <!-- TERMS & CONDITIONS CHECKBOX
           <div class="row">
@@ -230,15 +234,14 @@ require('layout/header.php');
             </div>
           </div>
           -->
-
+          <!--
           <div class="row">
             <div class="twelve columns">
                 <input type="submit" name="submit" value="Submit" class="btn btn-primary btn-block btn-lg button-primary" tabindex="8">
             </div>
           </div>
-
         </form>
-
+        -->
       </div> <!-- end signup box -->
 
   </div> <!-- end row -->
@@ -366,7 +369,7 @@ require('layout/header.php');
 
 <?php
 // insert clock
-require('layout/clock.php');
+//require('layout/clock.php');
 ?>
 
 

@@ -93,7 +93,7 @@ ___________________________________________-->
     <div class="row">
       <!--<img src="images/grave.png" class="u-max-full-width"></p>-->
       <h2 class="section-heading orange">Weeklong Game</h2>
-      <h5 class="orange">March 19th - March 23rd</h5>
+      <h5 class="orange"><?php echo WLDATES; ?></h5>
       <p class="description">
       You have successfully registered for the CU Boulder Weeklong HvZ game.
       <br>Be sure to look through the <a href="#playerinfo">Player Information</a> before the game.

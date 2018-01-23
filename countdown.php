@@ -7,7 +7,7 @@
     <div class="row">
       <img src="images/grave.png" class="u-max-full-width">
       <h2 class="section-heading orange">Weeklong Game</h2>
-      <h5 class="deeporange">March 19th - March 23rd</h5>
+      <h5 class="deeporange"><?php echo WLDATES; ?></h5>
       <br>
 
       <h5 class="subheader">Gametime Remaining</h5>
